@@ -1,0 +1,487 @@
+body {
+    /* font-size: 15px; Set a base font size for better control */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ffffff;
+    color: rgb(237, 224, 224);
+    line-height: 1;
+    /* font-family: Roboto,sans-serif; */
+    /* font-size: 14px; */
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+    /* vertical-align: baseline; */
+    /* display: block; */
+  }
+  
+.category-txt{
+    margin-top: 50px;
+  
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 800;
+    text-size-adjust: 10px;
+}
+
+
+
+.description-txt{
+    font-size: 1em;
+    font-style: italic;
+    
+}
+
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  nav a:hover {
+    color: red;
+  }
+
+
+  
+
+
+  .red-line {
+    width: 2px;
+    height: 3vh;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 1;
+    transform: translateX(-50%);
+    margin-top: 220px;
+}
+
+.red-line2 {
+    width: 2px;
+    height: 3vh;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 1;
+    transform: translateX(-50%);
+    margin-top: 560px;
+}
+
+
+  hr {
+    margin-top: 40px;
+    border-color: rgba(248, 243, 243, 0.676);
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+
+
+  .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+        margin-left: 20px;
+        background-color: rgb(248, 244, 244);
+        padding-top: 20px;
+        border-radius: 10px;
+  }
+
+
+  .image-item {
+    flex: 0 0 calc(33.33% - 340px); /* 3 items per row, adjust as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add spacing between rows */
+    
+  }
+
+
+
+  .image-item img {
+    max-width: 150px;        /* Set maximum width for each image */
+    height: 230px;            /* Maintain aspect ratio */
+    border: 2px solid #50df50;  /* Optional: Add a border around each image */
+    padding: 5px;            /* Optional: Add some padding around each image */
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    position: relative;
+    animation: rotateBorderColor 15s infinite linear;
+
+  }
+
+  .image-item p {
+    margin-top: 10px; /* Add spacing between image and text */
+    font-size: 10px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+  }
+
+  .image-item img:hover {
+    transform: scale(1.20);
+    border: 2px solid #fefffe; 
+}
+
+
+
+
+
+
+
+
+/* second category */
+
+
+
+  .image-container2 {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    /* margin-left: 20px; */
+    /* background-color: rgb(248, 244, 244); */
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+
+  .image-item2 {
+    flex: 0 0 calc(33.33% - 340px); /* 3 items per row, adjust as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add spacing between rows */
+    margin-left: 100px; 
+  }
+  
+  .image-item2 img {
+    max-width: 250px;        /* Set maximum width for each image */
+    height: 437px;          /* Maintain aspect ratio */
+    border: 2px solid #50df50;  /* Optional: Add a border around each image */
+    padding: 5px;            /* Optional: Add some padding around each image */
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    position: relative;
+    animation: rotateBorderColor 15s infinite linear;
+
+  }
+  
+  .image-item2 p {
+    margin-top: 10px; /* Add spacing between image and text */
+    font-size: 12px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+  }
+
+  .image-item2 img:hover {
+    transform: scale(1.20);
+    border: 2px solid #fefffe; 
+}
+
+
+.description-txt2{
+    font-size: 20px;
+}
+
+
+
+
+
+
+.image-container3 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    /* margin-left: 20px; */
+    /* background-color: rgb(248, 244, 244); */
+    margin-top: -617px;
+
+    border-radius: 10px;
+}
+
+  .image-item3 {
+    flex: 0 0 calc(33.33% - 340px); /* 3 items per row, adjust as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add spacing between rows */
+    /* margin-left: 100px; */
+    
+  }
+
+  
+  
+  .image-item3 img {
+    max-width: 250px;        /* Set maximum width for each image */
+    height: 437px;           /* Maintain aspect ratio */
+    border: 2px solid #50df50;  /* Optional: Add a border around each image */
+    padding: 5px;            /* Optional: Add some padding around each image */
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    position: relative;
+    animation: rotateBorderColor 15s infinite linear;
+
+  }
+  
+  .image-item3 p {
+    margin-top: 10px; /* Add spacing between image and text */
+    font-size: 12px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+  }
+
+  .image-item3 img:hover {
+    transform: scale(1.20);
+    border: 2px solid #fefffe; 
+}
+
+
+.description-txt3{
+    font-size: 15px;
+}
+
+
+
+
+
+
+.image-container4 {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    /* margin-left: 20px; */
+    /* background-color: rgb(248, 244, 244); */
+    margin-top: -617px;
+  
+    border-radius: 10px;
+}
+
+
+  .image-item4 {
+    flex: 0 0 calc(33.33% - 340px); /* 3 items per row, adjust as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add spacing between rows */
+    margin-right: 100px;
+    
+  }
+
+  
+  
+  .image-item4 img {
+    max-width: 250px;        /* Set maximum width for each image */
+    height: 437px;            /* Maintain aspect ratio */
+    border: 2px solid #50df50;  /* Optional: Add a border around each image */
+    padding: 5px;            /* Optional: Add some padding around each image */
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    position: relative;
+    animation: rotateBorderColor 15s infinite linear;
+
+  }
+  
+  .image-item4 p {
+    margin-top: 10px; /* Add spacing between image and text */
+    font-size: 12px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+  }
+
+  .image-item4 img:hover {
+    transform: scale(1.20);
+    border: 2px solid #fefffe; 
+}
+
+
+.description-txt4{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+/* thered category */
+
+
+
+.image-container5 {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    /* margin-left: 20px; */
+    /* background-color: rgb(248, 244, 244); */
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+
+  .image-item5 {
+    flex: 0 0 calc(33.33% - 340px); /* 3 items per row, adjust as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add spacing between rows */
+    margin-left: 100px; 
+  }
+  
+  .image-item5 img {
+    max-width: 250px;        /* Set maximum width for each image */
+    height: 437px;            /* Maintain aspect ratio */
+    border: 2px solid #50df50;  /* Optional: Add a border around each image */
+    padding: 5px;            /* Optional: Add some padding around each image */
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    position: relative;
+    animation: rotateBorderColor 15s infinite linear;
+
+  }
+  
+  .image-item5 p {
+    margin-top: 10px; /* Add spacing between image and text */
+    font-size: 12px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+  }
+
+  .image-item5 img:hover {
+    transform: scale(1.20);
+    border: 2px solid #fefffe; 
+}
+
+
+.description-txt5{
+    font-size: 20px;
+}
+
+
+
+
+
+
+.image-container6 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    /* margin-left: 20px; */
+    /* background-color: rgb(248, 244, 244); */
+    margin-top: -617px;
+
+    border-radius: 10px;
+}
+
+  .image-item6 {
+    flex: 0 0 calc(33.33% - 340px); /* 3 items per row, adjust as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add spacing between rows */
+    /* margin-left: 100px; */
+    
+  }
+
+  
+  
+  .image-item6 img {
+    max-width: 250px;
+    height: 434px;
+    border: 2px solid #50df50;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    position: relative;
+    animation: rotateBorderColor 15s infinite linear;
+}
+  
+  .image-item6 p {
+    margin-top: 10px; /* Add spacing between image and text */
+    font-size: 12px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+  }
+
+  .image-item6 img:hover {
+    transform: scale(1.20);
+    border: 2px solid #fefffe; 
+}
+
+
+.description-txt6{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.image-container7 {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    /* margin-left: 20px; */
+    /* background-color: rgb(248, 244, 244); */
+    margin-top: -617px;
+  
+    border-radius: 10px;
+}
+
+
+  .image-item7 {
+    flex: 0 0 calc(33.33% - 340px); /* 3 items per row, adjust as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Add spacing between rows */
+    margin-right: 100px;
+    
+  }
+
+  
+  
+  .image-item7 img {
+    max-width: 250px;        /* Set maximum width for each image */
+    height: 437px;            /* Maintain aspect ratio */
+    border: 2px solid #50df50;  /* Optional: Add a border around each image */
+    padding: 5px;            /* Optional: Add some padding around each image */
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out , border 0.3s ease-in-out;
+    position: relative;
+    animation: rotateBorderColor 15s infinite linear;
+
+  }
+  
+  .image-item7 p {
+    margin-top: 10px; /* Add spacing between image and text */
+    font-size: 12px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+  }
+
+  .image-item7 img:hover {
+    transform: scale(1.20);
+    border: 2px solid #fefffe; 
+}
+
+
+.description-txt7{
+    font-size: 15px;
+}
