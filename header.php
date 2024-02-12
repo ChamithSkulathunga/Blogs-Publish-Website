@@ -8,12 +8,13 @@
     <title>Blogs Publisher</title>
 </head>
 <body >
-<nav class="navbar navbar-expand-lg justify-content-end navbar-light bg-light ">
+<nav class="navbar navbar-expand-lg justify-content-end   ">
 
         <nav class="navbar navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    <img src="https://i.pinimg.com/236x/0d/c4/1c/0dc41cdb97e4a9bba44edeac2b599d21.jpg" alt="" width="100" height="100">
+                    <img src="https://i.pinimg.com/236x/0d/c4/1c/0dc41cdb97e4a9bba44edeac2b599d21.jpg" 
+                    alt="" width="80" height="80">
                 </a>
             </div>
         </nav>
@@ -31,7 +32,7 @@
       <ul class="navbar-nav me-auto mb-1 mb-lg-0">
 
               <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                  <a class="nav-link "  aria-current="page" href="index.php"  >Home</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="About.php">About</a>

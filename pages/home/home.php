@@ -6,12 +6,12 @@
   <title>home</title>
   <link rel="stylesheet" href="pages\home\home.css">
 </head>
-<body>
+<body >
                 <p class="category-txt">Latest Blogs <!--<span>&rarr;</span>--><div class="red-line"></div></p>
 
                   <br><br>
 
-                <div class="image-container">
+                <div class="image-container" >
                     <div class="image-item">
                         <img src="https://i.pinimg.com/236x/7e/e9/4a/7ee94a6a9915ac9b0fa06f06474559c0.jpg" alt="Description 1" >
                         <br>

@@ -20,7 +20,7 @@
                         <li class="nav-item"><a href="contact.php" class="nav-link">Contact us</a></li>
                     </ul>
                 </div>
-                <p class="mb-2 mt-2"> Copyright ©️ 2023 Blogs-Publisher.lk</p>
+                <p class="copyRightText"> Copyright ©️ 2023 Blogs-Publisher.lk</p>
             </div>
         </div>
     </div>
